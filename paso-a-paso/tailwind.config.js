@@ -8,7 +8,8 @@ module.exports = {
 		container: {
 			center: true,
 		},
-
+		
+		//comentario
 		extend: {
 			colors: {
 				"peru-1": "#cd853f",

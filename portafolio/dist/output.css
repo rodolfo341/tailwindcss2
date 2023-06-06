@@ -522,14 +522,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-primary {
+.bg-sky-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
 }
 
 .bg-sky-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(240 249 255 / var(--tw-bg-opacity));
+}
+
+.font-roboto {
+  font-family: Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .text-stone-900 {
@@ -538,6 +542,11 @@ video {
 }
 
 @media (prefers-color-scheme: dark) {
+  .dark\:bg-primary {
+    --tw-bg-opacity: 1;
+    background-color: rgb(15 23 42 / var(--tw-bg-opacity));
+  }
+
   .dark\:text-cyan-50 {
     --tw-text-opacity: 1;
     color: rgb(236 254 255 / var(--tw-text-opacity));
